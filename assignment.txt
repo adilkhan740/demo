@@ -1,0 +1,179 @@
+Q1. Java program to print welcome message.
+package javapractice;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    System.out.println("welcome");
+	}
+
+}
+
+
+Q2 Java program to print sum of three float numbers.
+package javapractice;
+
+public class floatsum {
+
+	public static void main(String[] args) {
+	Float a= 2.33f;
+	Float b= 5.66f;
+	Float c= 7.25f;
+	Float d= a+b+c;
+    System.out.println("Sum="+ d);	// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+Q3 Java program to swap two numbers.
+package javapractice;
+
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int x=20;
+ int y=40;
+ System.out.println("No. before swapping" + x + y);
+ int temp =x;
+ x=y;
+ y= temp;
+ System.out.println("No. after swapping" + x + y);
+	}
+}
+
+
+
+Q4. write a program to check if no. is even or odd.
+package javapractice;
+
+public class numbertypes {
+
+	public static void main(String[] args) {
+	int x=24;
+	if(x%2==0)
+		System.out.println("No. is even");
+	else
+	    System.out.println("No. is odd");
+	}
+
+}
+
+
+
+Q5. write a program to check from three given numbers that whether a no. is greater than or equal to 20 and less than other numbers print appropriate message.
+
+
+
+
+
+
+
+Q7. write a program to check if sales of a person is greater than 10,000 then eligible for bonus else not eligible calculate bonus as 20% of sales.
+ package javapractice;
+
+public class sales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int sales;
+    sales=50000; 
+   if(sales>=10000)
+   {
+   System.out.println("Bonus=" + 20*sales/100);
+   }
+   else
+   System.out.println("Not eligible for bonus");
+   }
+
+}
+
+
+Q8.write a program to check if two given integer value is in range of 18 and 100 print eligible for voting else not eligible.
+
+
+
+Q9. write a program to print average of given 5 subjects marks of student and check if average >=40 print pass else print fail.
+package javapractice;
+
+public class Marks {
+
+	public static void main(String[] args) {
+	float sub1=20;
+	float sub2=30;
+	float sub3=50;
+	float sub4=40;
+	float sub5=70;
+	float avg = (sub1+sub2+sub3+sub4+sub5)/5;
+	if(avg>=40)
+	{
+		System.out.println("pass");
+	}
+	else
+     System.out.println("fail");		
+	}
+
+}
+
+
+
+Q10. write a program to ask name, age and salary of an employee and print on console.
+package javapractice;
+import java.util.Scanner;
+public class UserInput {
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+    String name;
+    int age;
+    Float salary;
+    System.out.println("Enter Name");
+    name= s.nextLine();
+    System.out.println("Enter age");
+    age= s.nextInt();
+    System.out.println("Enter salary");
+    salary= s.nextFloat();
+    System.out.println("Name=" + name);
+    System.out.println("age=" +age);
+    System.out.println("salary=" +salary);
+
+	}
+
+}
+
+
+Q11. write a program to ask two numbers from user and print greater number among two
+package javapractice;
+import java.util.Scanner;
+public class Greaternumber {
+
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	int a;
+	int b;
+	System.out.println("Enter first number");
+	a = s.nextInt();
+	System.out.println("Enter second number");
+	b = s.nextInt();
+	if(a>b)
+	{
+		System.out.println(a+" is greater");
+	}
+	else
+     System.out.println(b+" is greater");
+     
+	}
+
+}
+
+
+
+
+Q12. write a progam to ask product name and price of product from user and calculate discount i.e if price>2700 then discount is 10 percent of price else discount is 7% of price.
+
+
+
+
